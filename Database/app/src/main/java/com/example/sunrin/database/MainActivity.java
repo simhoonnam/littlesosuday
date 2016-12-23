@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editText_type=(EditText)findViewById(R.id.editType);
         editText_name=(EditText)findViewById(R.id.editName);
         editText_age=(EditText)findViewById(R.id.editAge);
+
         button = (Button)findViewById(R.id.button);
         button.setOnClickListener(this);
 
