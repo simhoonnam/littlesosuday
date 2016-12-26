@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Stu stu =realm.createObject(Stu.class);
         stu.setName(name);
         stu.setPhone(phone);
+        stu.setImage(image);
 
         //DB 끝
         realm.commitTransaction();
